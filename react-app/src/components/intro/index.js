@@ -1,9 +1,9 @@
 import React from 'react';
 
-const intro = (props) => (
+const Intro = (props) => (
     <p className="App-intro">
-        Our first functonal Component
+        {props.message}
     </p>
 );
 
-export default intro;
+export default Intro;
