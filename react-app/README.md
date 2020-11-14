@@ -68,3 +68,56 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# React-app
+
+  ::: Render :::  
+
+Q: Render? :    
+A: 
+    a function that takes two arguments
+    
+    the html code and an html element
+
+Q: goal of render method/function? :    
+A: 
+    take given html code , display within html element
+
+Q: example of render method? :   
+A: 
+    ReactDOM.render(<p>hello</p>, document.getElementById('root'));
+
+   >> output :
+
+    <body>     
+       <div id="root"></div>     
+    <body>         
+
+    ::: JSX :::     
+
+Q: JSX?   :   
+A: Allows us to write HTML elements in Javascript    
+
+Q: alternatives to jsx ? :     
+A: createElement() and appendChild()
+
+
+
+Q: Props ?   :   
+A:
+
+Q: State ?   :   
+A:
+
+
+Q: Lifecycle ?   :   
+A:
+
+
+Q: Events ?   :   
+A:
+
+
+
