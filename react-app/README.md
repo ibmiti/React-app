@@ -103,10 +103,39 @@ A: Allows us to write HTML elements in Javascript
 Q: alternatives to jsx ? :     
 A: createElement() and appendChild()
 
+Q: What does JSX stand for? :   
+A: Javascript XML ( eXtensible Markup Languag )
 
+Q: what is an example of jsx? :    
+A:    
+    const myelement = React.createElement('h1', {}, 'ello world');
+    ReactDOM.render(myelement, document.getElementById('root));
+
+Q: example os jsx expressions? :    
+A:  
+   const myelement = <h1>React is {5 + 5} times better with JSX</h1>;
+
+Q: how can we use jsx to insert large blocks of HTML? :   
+A: we can wrap the html within parenthesis:   
+    
+Q: what is an example of multi-line html/jsx? :  
+A: 
+    const myelement = ( 
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>sea-weed</li>
+        </ul>
+    );
+
+Statemenet::   
+
+
+
+      ::: Props :::
 
 Q: Props ?   :   
-A:
+A: 
 
 Q: State ?   :   
 A:
